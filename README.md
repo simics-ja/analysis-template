@@ -1,7 +1,8 @@
 # Preparation
 
-- [asdf-R](https://github.com/iroddis/asdf-R)
+- [asdf-R](https://github.com/asdf-community/asdf-R)
 - [IRkernel](https://github.com/IRkernel/IRkernel)
+  - Install and register IRkernel in R console after entering virtual env using `poetry shell`.
 
 # Run jupyter
 
@@ -18,3 +19,9 @@ $ poetry run jupyter lab
 or
 $ poetry run jupyter notebook
 ```
+
+# Reference
+
+- [Jupyter Notebook Kernels: How to Add, Change, Remove](https://queirozf.com/entries/jupyter-kernels-how-to-add-change-remove)
+  - In this project, these kernel operation run through `poetry run`.
+  - If jupyter sets not existing kernel, you have to remove the old kernel setting and redo IRkernel installation and registration.
