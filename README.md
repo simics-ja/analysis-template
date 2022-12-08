@@ -1,8 +1,12 @@
 # Preparation
 
+- [asdf-python](https://github.com/asdf-community/asdf-python)
+- [asdf-poetry](https://github.com/asdf-community/asdf-poetry)
 - [asdf-R](https://github.com/asdf-community/asdf-R)
+- [asdf-julia](https://github.com/rkyleg/asdf-julia)
 - [IRkernel](https://github.com/IRkernel/IRkernel)
   - Install and register IRkernel in R console after entering virtual env using `poetry shell`.
+- [IJulia](https://github.com/JuliaLang/IJulia.jl)
 
 # Run jupyter
 
